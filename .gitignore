@@ -1,0 +1,26 @@
+# ============================================
+# platform-docs
+# Documentação em Markdown
+# ============================================
+
+# --- Builds de documentação (MkDocs / Sphinx) ---
+site/
+_build/
+docs/_build/
+
+# --- Arquivos temporários de editores ---
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# --- Configurações locais de IDE ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Arquivos de sistema Windows ---
+desktop.ini
+ehthumbs.db
