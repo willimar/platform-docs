@@ -1,0 +1,12 @@
+[project]
+name = "agent-platform"
+version = "0.1.0"
+description = "Workspace raiz da Agent Platform"
+requires-python = ">=3.11"
+
+[tool.uv.workspace]
+members = [
+    "agent-sdk",
+    "platform-core",
+    "google-calendar-agent",
+]
