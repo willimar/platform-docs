@@ -9,19 +9,18 @@ especificações, decisões de design (ADRs) e guias de uso.
 
 | Documento | Descrição |
 |-----------|-----------|
-| [architecture.md](platform-docs/architecture.md) | Visão geral, componentes, fluxo de execução |
-| [agent-spec.md](platform-docs/agent-spec.md) | Especificação do formato `agent.yaml` |
-| [tool-contract.md](platform-docs/tool-contract.md) | Contrato de ferramentas (decorator, tipos, regras) |
-| [decisions/](decisions/) | Architecture Decision Records (ADRs) |
-| [guides/](guides/) | Tutoriais e guias passo a passo |
-
----
+| [architecture.md](architecture.md) | Visão geral, componentes, fluxo de execução |
+| [agent-spec.md](agent-spec.md) | Especificação do formato `agent.yaml` |
+| [tool-contract.md](tool-contract.md) | Contrato de ferramentas |
+| [guides/google-oauth.md](guides/google-oauth.md) | Setup OAuth do Google (Calendar) |
+| [decisions/](decisions/) | ADRs |
 
 ## Decisões registradas
 
 | ADR | Título | Status | Data |
 |-----|--------|--------|------|
 | [ADR-001](decisions/adr-001-modelo-de-agentes.md) | Modelo de Agentes — Composição CrewAI + LangGraph | Aceita | 2026-08-06 |
+| [ADR-002](decisions/adr-002-escopo-somente-leitura.md) | Escopo OAuth somente leitura no google-calendar-agent | Aceita | 2026-08-11 |
 
 ---
 
